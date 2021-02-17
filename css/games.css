@@ -1,0 +1,48 @@
+
+html, body {
+    margin: 0px;
+}
+
+
+.navbar {
+    background-color: #d13639;
+    color: white;
+    padding: 25px 60px;
+    font-size: 20px;
+    display: flex;
+}
+
+.logo > img {
+    
+    height: 60px;
+    margin: auto;
+}
+
+.item-left {
+    width: 33.33%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+}
+
+.item-center {
+    background-color: turquoise;
+    width: 33.33%;
+    align-items: center;
+    display: flex;
+}
+
+.item-right {
+    background-color: yellowgreen;
+    width: 33.33%;
+    /*display: flex;*/
+    float: right;
+    align-items: center;
+    
+    
+}
+
+.item-right > a {
+    
+}
+
