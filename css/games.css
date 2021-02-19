@@ -12,6 +12,14 @@ html, body {
     display: flex;
 }
 
+.downbar {
+  background-color: #d13639;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+
+}
+
 .logo > img {
     
     height: 60px;
@@ -41,16 +49,55 @@ html, body {
 }
 
 .item-right {
-    background-color: yellowgreen;
+    color: white;
     width: 33.33%;
-    /*display: flex;*/
-    float: right;
+    display: grid;
     align-items: center;
+    text-align: right;
     
     
 }
 
+.item-right > a:visited {
+  text-decoration: none !important;
+  color: white;
+}
+.news {
+  margin: 170px;
+  
+}
 
+.box  {
+  width: 100%;
+  border: 1px solid;
+  display: flex;
+  margin-bottom: 150px;
+
+}
+
+.box-img  {
+
+ width: 40%;
+  
+  
+}
+
+.title-box {
+  margin: 0px;
+}
+
+.box-img > img {
+  padding: 10px;
+  width: 100%;
+}
+
+.box-text {
+  width: 60%;
+  padding: 10px 150px 15px 50px;
+  text-align: justify;
+  font-size: 15px;
+ 
+}
 
 .jamboard > div > img {
     height: 510px;
@@ -161,4 +208,12 @@ left: 50px;
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+
+footer {
+  background-color: rgb(3, 3, 48);
+  height: 400px;
+  margin-top: 200px;
+
 }
